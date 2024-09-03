@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container label {
+    padding: 0 30px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.main-container input {
+    width: 50%;;
+    padding: 10px 15px;
+    margin-bottom: 30px;
+    border: solid 1px black;
+    border-radius: 15px;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.main-container input:focus, .main-container input:active {
+    outline: none;
+}
+
+.main-container i {
+    color: gray;
+    font-size: 1.7rem;
+}
+
+.main-container i:hover {
+    color: black;
+}
+
+.game-container {
+    padding: 0 30px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game-container .label {
+    margin: 20px 0;
+    font-size: 1.6rem;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#player, #question {
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#question {
+    height: 206px;
+}
+
+.game-container button {
+    margin-top: 50px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.game-container button:hover {
+    color: black;
+}
